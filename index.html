@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: white;
+         /*   background-image:
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #25283b22 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );*/
+        }
+        
+        body::before{
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+           /*background-image: url(images/bg.png);*/
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+       
+   
+   
+    <nav>
+        <i class="fa-solid fa-bars"  id="bars"></i>
+        
+        <h1>codex.</h1>
+    <a href="">home</a>
+    <a href="">events</a>
+    <a href="">achivements</a>
+    <a href="">About us</a>
+    <button id="signup-but">sign up</button>
+    </nav>
+
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="javascript.jpeg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="java.jpeg" alt=""></div>
+            <div class="item" style="--position: 3"><img src="python.jpeg" alt=""></div>
+            <div class="item" style="--position: 4"><img src="ruby.jpeg" alt=""></div>
+            <div class="item" style="--position: 5"><img src="golang1.jpg" alt=""></div>
+            <div class="item" style="--position: 6"><img src="c++.jpeg" alt=""></div>
+            <div class="item" style="--position: 7"><img src="kotlin.jpeg" alt=""></div>
+            <div class="item" style="--position: 8"><img src="rust.jpg" alt=""></div>
+            <div class="item" style="--position: 9"><img src="dart.jpg" alt=""></div>
+            <div class="item" style="--position: 10"><img src="exilir.jpeg" alt=""></div>
+        </div>
+        <div class="content">
+            <h2 data-content="CSS ONLY">
+                Coders&Decoder Club
+            </h2>
+            <div class="author">
+                <h3>Student Development Activity</h3>
+                <p><b>MCA DEPARTMENT</b></p>
+                <p>
+                    Main motive of club is to make students awarness of new techonology 
+                </p>
+            </div>
+            <div class="model"></div>
+        </div>
+    </div>
+    <div class="team">
+        <p style="text-align: center;">
+            <b>Designed by : Nox void team</b><br>
+            
+            
+        </p>
+    </div>
+
+</body>
+</html>
